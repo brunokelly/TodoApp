@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Tests", "3 - Tests", "{037D209A-450F-44D6-99C6-742571377C61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Domain.Infra.IoC", "Todo.Domain.Infra.IoC\Todo.Domain.Infra.IoC.csproj", "{0E0BEA74-9648-4AE1-A382-085F203AA21E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{98669C3C-A225-4774-AE9D-E09E05378502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98669C3C-A225-4774-AE9D-E09E05378502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98669C3C-A225-4774-AE9D-E09E05378502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E0BEA74-9648-4AE1-A382-085F203AA21E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0BEA74-9648-4AE1-A382-085F203AA21E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E0BEA74-9648-4AE1-A382-085F203AA21E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0BEA74-9648-4AE1-A382-085F203AA21E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{F7003E0B-2D7F-41DA-9DB5-5F63AA912020} = {76605863-1DFC-49CD-978C-76D769C0314F}
 		{751F01BA-8EA1-4BE2-8EC8-0E36AA685A79} = {037D209A-450F-44D6-99C6-742571377C61}
 		{98669C3C-A225-4774-AE9D-E09E05378502} = {5504DEA2-3060-4079-A0D3-5CDE55E4E454}
+		{0E0BEA74-9648-4AE1-A382-085F203AA21E} = {5504DEA2-3060-4079-A0D3-5CDE55E4E454}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F830AE0B-0FB9-4075-A482-A77889675E00}

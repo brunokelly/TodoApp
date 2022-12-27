@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Todo.Domain.Infra.IoC\Todo.Domain.Infra.IoC.csproj" />
     <ProjectReference Include="..\Todo.Domain.Infra\Todo.Domain.Infra.csproj" />
     <ProjectReference Include="..\Todo.Domain\Todo.Domain.csproj" />
   </ItemGroup>
