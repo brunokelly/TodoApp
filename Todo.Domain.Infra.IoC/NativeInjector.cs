@@ -17,20 +17,7 @@ namespace Todo.Domain.Infra.IoC
             services.AddTransient<ITodoRepository, TodoRepository>();
             services.AddTransient<TodoHandler, TodoHandler>();
 
-            //services
-            //   .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-            //   .AddJwtBearer(options =>
-            //   {
-            //       options.Authority = "https://securetoken.google.com/project-1064011784157549102";
-            //       options.TokenValidationParameters = new TokenValidationParameters
-            //       {
-            //           ValidateIssuer = true,
-            //           ValidIssuer = "https://securetoken.google.com/project-1064011784157549102",
-            //           ValidateAudience = true,
-            //           ValidAudience = "project-1064011784157549102",
-            //           ValidateLifetime = true
-            //       };
-            //   });
+            
         }
     }
 }
